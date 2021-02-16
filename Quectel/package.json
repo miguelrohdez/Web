@@ -1,0 +1,11 @@
+{
+  "name": "quectel",
+  "version": "1.0.0",
+  "description": "Quectel-GPS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miguelrohdez",
+  "license": "ISC"
+}
