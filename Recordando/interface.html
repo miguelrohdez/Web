@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Interfaz GPS</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<!-- Aqui  empieza la barra de menus y logo -->
+		<div class="container-menu">
+			<nav class="nav-main">
+				<a class="logoNav" href="./index.html">
+					<img src="#" alt="Imagen Logo">
+				</a>
+				<ul class="nav-menu">
+					<li>
+						<a href="./index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="./interface.html">Dispositivos</a>
+					</li>
+					<li>
+						<a href="#">Precios</a>
+					</li>
+					<li>
+						<a href="#">Testimonios</a>
+					</li>
+					<li>
+						<a href="#">Contacto</a>
+					</li>
+				</ul>
+				<ul class="nav-sesion">
+					<li>
+						<a href="">Entrar</a>
+					</li>
+					<li>
+						<a href="./registro.html">Registrarse</a>
+					</li>
+				</ul>
+			</nav>
+			<hr>
+		</div>
+			
+		<!-- Aqui  empieza la caja principal -->
+		<div class="container">
+			<header>
+				<h1 class="tituloPrincipal">Intefaz GPS</h1>
+			</header>			
+		<!-- Aqui  empieza la seccion de datos a mostrar -->
+			<div class="espacio5"></div>
+			<div class="lateralIzq">
+                <h3 class="texto-centrado">Dispositivo(s)</h3>
+                <div class="datos-dispos">
+                    <label for="idDispo" class="text-label">ID:</label>
+                        <span id="idDispositivo">3516589432</span><br>
+                    <label for="posLatitud" class="text-label">Latitud: </label>
+                        <span id="poslatitud">19.331901</span><br>
+                    <label for="posLongitud" class="text-label">Longitud: </label>
+                        <span id="posLongitud">-99.158452</span><br>
+                    <label for="datos1" class="text-label">Motor encendido:</label>
+                        <span id="dato1">TRUE</span><br>
+                     <hr>
+                </div>
+			</div>
+		<!-- Aqui  la seccion del mapa -->
+			<div class="mapa-contenedor">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.3336914941898!2d-99.158452!3d19.331901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdff9f8fcd8853%3A0xb18dc40e68e8533b!2sZulema!5e0!3m2!1ses!2smx!4v1613431098093!5m2!1ses!2smx" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<footer>
+			<h1 class="text-footer texto-centrado">Pekas N' M&K</h1>
+		</footer>
+	</body>
+</html>
