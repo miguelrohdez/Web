@@ -27,11 +27,24 @@ arreglo.push('Hola')
 //cambio 
 miVariable = 'Cambio'
 //Compraracion flexible
-const compa = 5 == '5'
+//const compa = 5 == '5'
 
 //Compraracion estricto
-const compa = 5 === '5'
+//const compa = 5 === '5'
 
 //and && or || not !
 
 //Funciones
+/**
+ * 
+ function letrero1(){
+     console.log('Mensaje1')
+    }
+    
+    function llamada(callback){
+        callback()
+    }
+    
+    llamada(letrero1)
+*/
+    
